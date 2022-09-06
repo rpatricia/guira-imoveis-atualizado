@@ -1,0 +1,54 @@
+/* LISTA E CASA */
+.contact .row {
+  display: flex;
+  background: var(--blue-dark);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.map p {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #ccc;
+  padding: 1rem 0;
+  line-height: 23px;
+  text-align: center;
+}
+.inner ul {
+  padding-bottom: 1rem;
+  margin: 0 0.75rem;
+}
+.inner .itens {
+  font-size: 1.6rem;
+  color: #ccc;
+  padding: 1rem 0;
+}
+
+.inner .itens:nth-child(1):before {
+  font-weight: 700;
+  color: var(--color-logo);
+  content: "✭";
+  
+}
+.inner .itens:nth-child(1){
+  color: rgb(194, 194, 28);
+
+  
+}
+  
+
+.inner .itens:before {
+  content: "✭";
+  /* content: "🗸"; */
+  color: rgb(194, 194, 28);
+  padding: 0 1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,52 @@
+/* INICIO */
+.home {
+    padding-top: 200px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(../imagens/fachada1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    margin: 0 0 20px;
+  }
+  
+  .home .content {
+    max-width: 1000px;
+
+    
+  }
+  
+  /* .home .content h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+  } */
+  .home .content h3{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 3.5rem;
+
+  }
+  
+  .home .content p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 2rem;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0, 25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  /* INICIO SOBRE */
+  

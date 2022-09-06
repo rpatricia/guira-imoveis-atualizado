@@ -1,0 +1,54 @@
+.top .top-content {
+  display: inline;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  clear: left; /* limpar sombra em volta da imagem */
+  color: #002041;
+}
+
+
+/* imagem ao lado texto */
+.utensilios {
+  width: 30%;
+  float: left;
+  margin: 0 20px 12px 12px;
+  border-radius: 3px;
+}
+.top .top-content .text-2 {
+  color: #002041;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.top .top-content .text-2 p::first-letter {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.top .top-content .text-3 {
+  color: #002041;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.top .top-content .text-4 {
+  color: #002041;
+  font-size: 15px;
+}
+
+.top .top-content a {
+  display: inline-block;
+  background-color: #b02ab7;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border: 2px solid #b02ab7;
+  border-radius: 6px;
+  transition: all 0.3s ease-in;
+}
+.top .top-content a:hover {
+  color: #b02ab7;
+  background: none;
+}
