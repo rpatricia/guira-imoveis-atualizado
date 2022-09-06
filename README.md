@@ -5,7 +5,7 @@
 
 ## Pré-visualização:
 
-[guira-imóveis]()
+[guira-imóveis](https://guira-imoveis-atualizado.vercel.app/)
 
 <div align="center"><img src="imagens/CASA 2 FULL.jpg" width="100%">
 </div>
